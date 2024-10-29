@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #4A4A4A; /* Dark Gray for text */
+}
+
+/* Header Styles */
+header {
+    background-color: #ffffff; /* White for header */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    max-height: 50px; /* Adjust according to your logo size */
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 15px 0;
+}
+
+.nav-link {
+    color: #003366 !important; /* Navy Blue for links */
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #FF6F61; /* Coral on hover */
+}
+
+/* Section Styles */
+section {
+    padding: 60px 0;
+    background-color: #F2F2F2; /* Soft Gray for sections */
+}
+
+h2 {
+    color: #003366; /* Navy Blue for headers */
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    background-color: #FFFFFF; /* White for card background */
+    padding: 20px; /* Padding inside cards */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #003366; /* Navy Blue for footer */
+    color: white;
+    padding: 20px 0;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #FF6F61; /* Coral on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-item {
+        margin: 0 5px;
+    }
+}
